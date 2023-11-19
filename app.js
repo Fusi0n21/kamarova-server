@@ -5,7 +5,7 @@ const cors = require('cors');
 const path = require('path'); // Add this line
 
 const app = express();
-const port = 3000;
+const port = 443;
 
 app.use(bodyParser.json());
 app.use(cors());
@@ -16,6 +16,7 @@ app.use(express.static(publicPath));
 
 // Load the players from the JSON file
 let players = require('./public/data.json');
+
 
 app.post('/update-elo', (req, res) => {
   const { playerName, newElo } = req.body;
