@@ -7,8 +7,8 @@ const path = require('path'); // Add this line
 const app = express();
 const port = 443;
 
-const privateKey = fs.readFileSync('/etc/ssl/private/ssl-cert-snakeoil.key', 'utf8');
-const certificate = fs.readFileSync('/etc/ssl/certs/ssl-cert-snakeoil.pem', 'utf8');
+const privateKey = fs.readFileSync('/etc/letsencrypt/live/kamarova.online/privkey.pem', 'utf8');
+const certificate = fs.readFileSync('/etc/letsencrypt/live/kamarova.online/fullchain.pem', 'utf8');
 const credentials = { key: privateKey, cert: certificate };
 
 app.use(bodyParser.json());
