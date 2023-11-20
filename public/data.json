@@ -41,27 +41,43 @@
       "elo": 1000
     },
     {
-      "name": "K",
+      "name": "Rytis",
       "elo": 1000
     },
     {
-      "name": "L",
+      "name": "Danusia",
       "elo": 1000
     },
     {
-      "name": "M",
+      "name": "Pavelka",
       "elo": 1000
     },
     {
-      "name": "O",
+      "name": "Pavelka",
       "elo": 1000
     },
     {
-      "name": "P",
+      "name": "Dziugas",
       "elo": 1000
     },
     {
-      "name": "New Player",
+      "name": "Mekola",
+      "elo": 1000
+    },
+    {
+      "name": "Berazumis",
+      "elo": 1000
+    },
+    {
+      "name": "Zapaske",
+      "elo": 1000
+    },
+    {
+      "name": "Pakaitinis",
+      "elo": 1000
+    },
+    {
+      "name": "Lavras",
       "elo": 1000
     }
   ]
